@@ -5,7 +5,7 @@ using UnityEngine;
 public class MissileControl : MonoBehaviour
 {
     public float TimeKeeper = 0;
-    public float FractDist = .01f;
+    public float FractDist = .04f;
 
     public Transform Explosion;
     // Start is called before the first frame update
@@ -17,6 +17,7 @@ public class MissileControl : MonoBehaviour
         GameManager.TargetPosition = GameManager.ObjPosition;
         GetComponent<Transform>().eulerAngles = new Vector3(0, 0, -15);
         TargetPos = GameManager.TargetPosition;
+        Destroy(gameObject, 7.0f);
     }
 
     // Update is called once per frame
@@ -24,12 +25,12 @@ public class MissileControl : MonoBehaviour
     {
         TimeKeeper += Time.deltaTime;
 
-        if (TimeKeeper > 0.4f)
+        if (TimeKeeper > 0.2f)
         {
-            FractDist = .04f;
+            FractDist = .06f;
             TimeKeeper = 0;
         }
-        transform.position = Vector2.Lerp(transform.position, TargetPos, FractDist);
+        transform.position = Vector2.Lerp(transform.position, TargetPos, .07f);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

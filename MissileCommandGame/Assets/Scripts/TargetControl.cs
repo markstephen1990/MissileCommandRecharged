@@ -6,7 +6,7 @@ public class TargetControl : MonoBehaviour
 {
     void Start()
     {
-
+        Destroy(gameObject, 7.0f);
     }
 
     // Update is called once per frame
