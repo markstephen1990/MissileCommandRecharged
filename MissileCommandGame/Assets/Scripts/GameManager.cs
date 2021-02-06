@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
 
     public int SpawnPos;
 
-    public static int Life = 6;
+    public static int Life = 9;
 
     public static int CurrentScore=0;
 
@@ -85,17 +85,12 @@ public class GameManager : MonoBehaviour
     {
         SpawnTimer += Time.deltaTime;
 
-        if (SpawnTimer > 1.5)
+        if (SpawnTimer > 1)
         {
             SpawnPos = Random.Range(-7, 7);
             SpawnTimer = 0;
             Instantiate(Comet, new Vector2(SpawnPos, 6), Comet.rotation);
         }
-    }
-
-    private void OnMouseDown()
-    {
-        Debug.Log("asdasda");
     }
 
     Transform GetClosestEnemy(Vector2 fromThis)
@@ -141,7 +136,7 @@ public class GameManager : MonoBehaviour
         GameOverMenu.SetActive(false);
         GameStart = true;
         CurrentScore = 0;
-        Life = 6;
+        Life = 9;
     }
 
     public void ExitGame()
