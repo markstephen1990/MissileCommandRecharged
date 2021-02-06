@@ -87,7 +87,7 @@ public class GameManager : MonoBehaviour
 
         if (SpawnTimer > 1)
         {
-            SpawnPos = Random.Range(-7, 7);
+            SpawnPos = Random.Range(-9, 9);
             SpawnTimer = 0;
             Instantiate(Comet, new Vector2(SpawnPos, 6), Comet.rotation);
         }
