@@ -2747,9 +2747,9 @@ MonoBehaviour:
   - {fileID: 989679871}
   - {fileID: 589823083}
   MainMenu: {fileID: 35867803}
-  GameOverMenu: {fileID: 0}
-  LastScoreText: {fileID: 0}
-  HighScoreText: {fileID: 0}
+  GameOverMenu: {fileID: 729895402}
+  LastScoreText: {fileID: 224721928}
+  HighScoreText: {fileID: 542832390}
 --- !u!4 &1114374276
 Transform:
   m_ObjectHideFlags: 0
