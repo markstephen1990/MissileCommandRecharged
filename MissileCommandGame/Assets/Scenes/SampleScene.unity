@@ -295,7 +295,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &35867804
 RectTransform:
   m_ObjectHideFlags: 0
@@ -694,7 +694,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Explosion: {fileID: 679988987595969163, guid: d592ae970113e427fb6f3ac483d43016,
     type: 3}
-  IsMissileBase: 1
 --- !u!1 &203324215
 GameObject:
   m_ObjectHideFlags: 0
@@ -1506,7 +1505,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Explosion: {fileID: 679988987595969163, guid: d592ae970113e427fb6f3ac483d43016,
     type: 3}
-  IsMissileBase: 0
 --- !u!1 &621787937
 GameObject:
   m_ObjectHideFlags: 0
@@ -1943,7 +1941,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &729895403
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2112,7 +2110,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Explosion: {fileID: 679988987595969163, guid: d592ae970113e427fb6f3ac483d43016,
     type: 3}
-  IsMissileBase: 0
 --- !u!1 &823852857
 GameObject:
   m_ObjectHideFlags: 0
@@ -2257,7 +2254,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Explosion: {fileID: 679988987595969163, guid: d592ae970113e427fb6f3ac483d43016,
     type: 3}
-  IsMissileBase: 0
 --- !u!1 &863236527
 GameObject:
   m_ObjectHideFlags: 0
@@ -2562,7 +2558,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Explosion: {fileID: 679988987595969163, guid: d592ae970113e427fb6f3ac483d43016,
     type: 3}
-  IsMissileBase: 0
 --- !u!1 &1018480767
 GameObject:
   m_ObjectHideFlags: 0
@@ -2752,6 +2747,9 @@ MonoBehaviour:
   - {fileID: 989679871}
   - {fileID: 589823083}
   MainMenu: {fileID: 35867803}
+  GameOverMenu: {fileID: 0}
+  LastScoreText: {fileID: 0}
+  HighScoreText: {fileID: 0}
 --- !u!4 &1114374276
 Transform:
   m_ObjectHideFlags: 0
@@ -2910,7 +2908,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Explosion: {fileID: 679988987595969163, guid: d592ae970113e427fb6f3ac483d43016,
     type: 3}
-  IsMissileBase: 1
 --- !u!1 &1192213306
 GameObject:
   m_ObjectHideFlags: 0
@@ -3547,7 +3544,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Explosion: {fileID: 679988987595969163, guid: d592ae970113e427fb6f3ac483d43016,
     type: 3}
-  IsMissileBase: 1
 --- !u!1 &1508940937
 GameObject:
   m_ObjectHideFlags: 0
@@ -3908,7 +3904,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Explosion: {fileID: 679988987595969163, guid: d592ae970113e427fb6f3ac483d43016,
     type: 3}
-  IsMissileBase: 0
 --- !u!1 &1778538373
 GameObject:
   m_ObjectHideFlags: 0
@@ -4373,7 +4368,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Explosion: {fileID: 679988987595969163, guid: d592ae970113e427fb6f3ac483d43016,
     type: 3}
-  IsMissileBase: 0
 --- !u!1 &1907709604
 GameObject:
   m_ObjectHideFlags: 0
